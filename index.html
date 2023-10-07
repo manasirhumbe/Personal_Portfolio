@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- ========== CSS file ========== -->
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <!-- ========== Header ========== -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">Porfolio</a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== Hero section ========== -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>Hi there, I'm</h4>
+                    <h2>Manasi Humbe</h2>
+                    <h1>& I'm 
+                        <span class="typed" data-typed-items="Web Developer, Python Developer, React Developer"></span>
+                    </h1>
+                    <p>Highly motivated and talented software developer seeking a challenging position in a dynamic organization to utilize my skills.</p>
+                    <div class="hero_social">
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn">
+                        Read more
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="images/img1.jpg" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========== About section ========== -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="about_content">
+                    <h1>Passionate web developer</h1>
+                    <p>Meticulous web developer with passion for responsive website design and a firm believer in 'Keep it simple, stupid'. Professionally I am looking for an opportunity that will help me utilize my skills in the above areas.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        
+        <!-- ========== Resume section ========== -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <li>
+                            <a href="#page-2">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#page-3">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Education</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2022</span>
+                                <h4>Bachelors in Statistics</h4>
+                                <span class="position">Mumbai University</span>
+                                <p>D.G. Ruparel College of Arts, Science And Commerce, Matunga.
+                                CGPA - 7.56</p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2018-2019</span>
+                                <h4>H.S.C.</h4>
+                                <span class="position">Maharashtra State Board</span>
+                                <p>S.S & L.S PATKAR COLLEGE OF ARTS & SCIENCE
+                                Percentage – 63.54 </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2016-2017</span>
+                                <h4>S.S.C.</h4>
+                                <p>YASHODHAM HIGH SCHOOL & JR. COLLEGE
+                                PERCENTAGE – 90.00</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="page-2" class="page two">
+                        <div class="page_heading">Experience</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                               <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">August 2023</span>
+                                <h4>Web Development Intern</h4>
+                                <span class="position">Oasis Infobyte</span>
+                                <p>Skills: HTML5 · Cascading Style Sheets (CSS) · JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">July 2023</span>
+                                <h4>Web Development Intern</h4>
+                                <span class="position">Let's Grow More</span>
+                                <p>Skills: HTML5 · Cascading Style Sheets (CSS) · JavaScript · React</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-3" class="page three">
+                        <div class="page_heading">Skills</div>
+                        <div class="progressBoxs grid">
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>CSS</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>JavaScript</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>React</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 30%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Python</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 50%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+
+        <!-- ========== Resume section ========== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter=".filter_web" class="filter_active">Recent work</li>
+                </ul>
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="images/work-1.png" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Pizza Delivery App</h4>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="open-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="images/work-2.png" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Netflix Clone</h4>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="open-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="images/work-3.png" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>College Website</h4>
+                                <div class="portfolio_links">
+                                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                                    <a href="#"><ion-icon name="open-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                            
+                        
+        <!-- ========== Contact section ========== -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="password" placeholder="Password>">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <a href="#" class="btn">Send Message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                        
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== End ========== -->
+        <div class="footer_bg"></div>
+
+
+    </main>
+
+
+
+
+    <!-- ========== typed js ========== -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    
+    <!-- ========== iconIcons ========== -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- ========== Script ========== -->
+    <script src="script.js"></script>
+</body>
+</html>
